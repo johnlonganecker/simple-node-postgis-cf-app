@@ -1,0 +1,6 @@
+---
+applications:
+- name: simple-node-postgis-cf-app
+  memory: 512M
+  instances: 1
+  random-route: true

@@ -29,5 +29,5 @@ const server = http.createServer((req, res) => {
   handler.process(req, res);
 });
 
-server.listen(8001);
+server.listen(process.env.PORT);
 console.log('Server running');
