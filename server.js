@@ -4,8 +4,7 @@ const sys = require('util'),
   pg = require('./postgres');
 
 router.register('/', function(req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.write('Hello World');
+  res.writeHead(302, {'Location': '/index.html'});
   res.end();
 });
 
